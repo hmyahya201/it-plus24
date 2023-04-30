@@ -1,0 +1,55 @@
+.home-setion{
+    background-image: url(../../assets/image/white-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+}
+.home-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 2rem 4rem 2rem;
+}
+.home-left{
+    width: 50%;
+}
+.header-img{
+    max-width: 100%;
+}
+.home-right{
+    width: 50%;
+    padding-left: 1.2rem;
+}
+.home-title{
+    font-size: 2.5rem;
+    color: #005DB7;
+    font-weight: 600;
+    line-height: 50px;  
+}
+.home-description{
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    color: #636363;
+    padding-top:1rem;
+    padding-bottom:2rem;
+}
+
+/* Responsive home section */
+@media (max-width: 767.98px) {
+    .home-flex{
+        flex-direction: column;
+    }
+    .home-left{
+        width: 100%;
+        order: 2;
+    }
+    .home-right{
+        width: 100%;
+        order: 1;
+        
+    }
+ }
