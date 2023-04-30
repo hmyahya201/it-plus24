@@ -2,10 +2,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 16px 0;
+    padding:0.5rem 2rem;
+    box-shadow: 0 2px 5px rgba(1, 1, 1, 0.05);
 }
 
 
 .logo{
     width: 250px;
     height: 70px;
+}
+
+.menu-link{
+    padding: 5px;
+    margin: 5px;
+    color: #005DB7;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.menu-link:hover{
+    color: #0ACBFF;
+}
+.contact-btn{
+    border: none;
+}
+.contact-btn-link{
+    padding: 10px 35px 10px 20px;
+    border: 1px solid #005DB7;
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+.contact-link{
+    color:#0ACBFF;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.contact-btn-link:hover{
+    background: #005DB7;
+    color: #0ACBFF;
+}
+
+.contact-arrow-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
 }
