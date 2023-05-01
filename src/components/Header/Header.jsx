@@ -1,5 +1,6 @@
 import './Header.css'
 import logo from '../../../public/LOGO-PNG.png'
+import barger from '../../assets/image/barger.png'
 
 const Header = () => {
     return (
@@ -7,6 +8,7 @@ const Header = () => {
             <div>
                 <img className="logo" src={logo} alt="brand" />
             </div>
+            <img className='barger-icon' src={barger} alt="barger-icon" />
             <div className='menu'>
                 <a className='menu-link' href="#">Home</a>
                 <a className='menu-link' href="#">Portfolio</a>

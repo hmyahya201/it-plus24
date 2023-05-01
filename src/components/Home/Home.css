@@ -37,6 +37,36 @@
     padding-top:1rem;
     padding-bottom:2rem;
 }
+.contact-btn-home{
+    width: 170px;
+    padding: 10px 20px;
+    border: 1px solid #005DB7;
+    border-radius: 30px 0 30px 0;
+    transition: 0.5s;
+    position: relative;
+}
+.contact-link-home{
+    color:#0ACBFF;
+    color:#005DB7;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.5s;
+    padding-right: 5px;
+}
+.contact-btn-home:hover .contact-link-home {
+    padding-right: 15px;
+    color: #0ACBFF;
+}
+.contact-btn-home:hover{
+    background: #005DB7;
+    color: #0ACBFF;
+}
+.contact-arrow-icon-home{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
 
 /* Responsive home section */
 @media (max-width: 767.98px) {

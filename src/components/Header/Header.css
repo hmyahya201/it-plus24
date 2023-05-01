@@ -16,8 +16,8 @@
 
 
 .logo{
-    width: 250px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
 }
 
 .menu-link{
@@ -31,6 +31,10 @@
 
 .menu-link:hover{
     color: #0ACBFF;
+}
+
+.barger-icon{
+    display: none;
 }
 
 .contact-btn-link{
@@ -55,6 +59,7 @@
     color: #0ACBFF;
 }
 
+
 .contact-btn-link:hover{
     background: #005DB7;
     color: #0ACBFF;
@@ -64,4 +69,18 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%); 
+}
+
+
+/* Responsive header */
+@media (max-width: 767.98px) {
+    .menu-link{
+        display: none;
+    }
+    .barger-icon{
+        display:block;
+    }
+    .contact-btn-link{
+        display: none;
+    }
 }
