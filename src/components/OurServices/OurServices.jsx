@@ -10,23 +10,23 @@ const OurServices = () => {
             <p className='services-descriptin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ab quis deleniti inventore quas error.</p>
             <div className='services-cart-sec'>
                 <div className='services-cart'>
-                    <img className='advise-icon' src={advice} alt="advice-icon" />
+                    <img className='cart-icon' src={advice} alt="advice-icon" />
                     <h2 className='cart-title'>To Advise</h2>
                     <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
                 </div>
                 <div className='services-cart'>
-                    <img className='advise-icon' src={brand} alt="advice-icon" />
-                    <h2 className='cart-title'>To Advise</h2>
+                    <img className='cart-icon' src={brand} alt="advice-icon" />
+                    <h2 className='cart-title'>Brand identity</h2>
                     <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
                 </div>
                 <div className='services-cart'>
-                    <img className='advise-icon' src={devlopment} alt="advice-icon" />
-                    <h2 className='cart-title'>To Advise</h2>
+                    <img className='cart-icon' src={devlopment} alt="advice-icon" />
+                    <h2 className='cart-title'>Web design & development</h2>
                     <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
                 </div>
                 <div className='services-cart'>
-                    <img className='advise-icon' src={apps} alt="advice-icon" />
-                    <h2 className='cart-title'>To Advise</h2>
+                    <img className='cart-icon' src={apps} alt="advice-icon" />
+                    <h2 className='cart-title'>Apps development</h2>
                     <p className='cart-des'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
                 </div>
             </div>
