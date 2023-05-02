@@ -35,6 +35,9 @@
 
 .barger-icon{
     display: none;
+    position: absolute;
+    right: 32px;
+    top: 20px;
 }
 
 .contact-btn-link{
@@ -79,8 +82,13 @@
     }
     .barger-icon{
         display:block;
+        text-align: end;
+        width:50px;
     }
     .contact-btn-link{
         display: none;
+    }
+    .logo{
+        width: 150px;
     }
 }

@@ -37,6 +37,8 @@ form textarea{
     border-radius: 8px;
 }
 
+
+
 @media (max-width: 767.98px) {
     .contact-sec{
        flex-direction: column;
