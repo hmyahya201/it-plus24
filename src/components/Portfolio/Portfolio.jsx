@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
         <div className='portfolio-section'>
             <h2 className='services-titel'>Our Portfolio</h2>
-            <p className='services-descriptin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ab quis deleniti inventore quas error.</p>
+            <p className='services-descriptin'>At IT-plus24, we pride ourselves on delivering high-quality products that exceed our customers expectations. Our team of experts has a deep understanding of the latest technology and industry trends, enabling us to create custom solutions to meet your unique business needs. Explore our portfolio and find out how our products can help you take your business to the next level.</p>
             <div className='portflio-cart'>
                 <div className='portfolio-item p-item-1'>
                     <img className='portfolio-img' src={portfolio1} alt="" />

@@ -1,0 +1,51 @@
+.working-method-sec{
+    padding: 3rem 2rem;
+}
+.working-parant-box{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.working-item-box{
+    position: relative;
+}
+.working-item-2{
+    margin-top: 20%;
+}
+.working-item-3, .working-item-5 {
+    margin-top: 10%;
+}
+.working-item-4{
+    margin-top: 30%;
+}
+.w-proces-img{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+}
+.w-proces-info{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px 10px rgba(1, 1, 1, 0.1);
+}
+.w-proces-no1{
+    font-size: 4rem;
+    color: rgba(1, 1, 1, 0.1)
+}
+.w-proces-title{
+    color: #005DB7;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 767.98px) {
+    .working-parant-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
