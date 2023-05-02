@@ -9,7 +9,9 @@
     text-align: center;
     padding: 20px;
     margin: 0.5rem;
-    border: 1px solid rgba(1,1,1,0.05)
+    border: 1px solid rgba(1,1,1,0.05);
+    border-radius: 10px;
+
 }
 .brand-icon{
     width: 100px;

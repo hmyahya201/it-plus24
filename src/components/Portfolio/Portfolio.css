@@ -1,0 +1,133 @@
+.portfolio-section{
+    padding: 0 2rem;
+}
+.portflio-cart{
+    display: grid;
+    gap: 10px;
+}
+.portfolio-item{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.p-item-1{
+    grid-column: 1;
+    grid-row: 1 / span 3;
+}
+.p-item-2{
+    grid-column: 2;
+    grid-row: 1;
+}
+.p-item-3{
+    grid-column: 3;
+    grid-row: 1 / span 3;
+}
+.p-item-4{
+    grid-column: 2;
+    grid-row: 2;
+}
+.p-item-5{
+    grid-column: 2;
+    grid-row: 3;
+}
+.portfolio-img{
+    max-width: 100%;
+}
+
+.p-item-box1{
+    position: absolute;
+    top: 0;
+    left: -400px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 250px;
+    background: rgba(0,93,183, 0.5);
+    color: #000;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px 10px rgba(1, 1, 1, 0.05);
+}
+.p-item-box3{
+    position: absolute;
+    top: 0;
+    right: -400px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 250px;
+    background: rgba(0,93,183, 0.5);
+    color: #000;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px 10px rgba(1, 1, 1, 0.05);
+}
+.p-item-1:hover .p-item-box1{
+    left: 0; 
+}
+.p-item-box2, .p-item-box4, .p-item-box5{
+    position: absolute;
+    top: -340px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,93,183, 0.5);
+    color: #000;
+    border-radius: 10px;
+    transition: 0.5s;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 10px 10px rgba(1, 1, 1, 0.05);
+}
+.p-item-3:hover .p-item-box3{
+    right: 0; 
+}
+.p-item-2:hover .p-item-box2{
+    top: 0;
+    visibility: visible;
+    opacity: 1;    
+}
+.p-item-4:hover .p-item-box4{
+    top: 0;
+    visibility: visible;
+    opacity: 1;    
+}
+.p-item-5:hover .p-item-box5{
+    top: 0;
+    visibility: visible;
+    opacity: 1;    
+}
+
+.p-item-title-head{
+    color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    .p-item-1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .p-item-2{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .p-item-3{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .p-item-4{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .p-item-5{
+        grid-column: 3;
+        grid-row: 1;
+    }
+}
