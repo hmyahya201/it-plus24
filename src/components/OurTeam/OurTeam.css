@@ -1,0 +1,39 @@
+.team-section{
+    padding: 2rem 2rem;
+    padding-top: 3rem;
+}
+.team-w-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team-w-box-left{
+    width: 50%;
+    padding-right: 15px;
+    align-items: start;
+}
+.team-title{
+    text-align: left;
+}
+.team-des{
+    text-align: left;
+}
+.team-img{
+    width: 100%;
+}
+.team-w-box-right{
+    width: 50%;
+    padding-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+    .team-w-box{
+        flex-direction: column;
+    }
+    .team-w-box-left{
+        width: 100%;
+    }
+    .team-w-box-right{
+        width: 100%;
+    }
+}

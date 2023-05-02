@@ -1,6 +1,8 @@
 import './Header.css'
-import logo from '../../../public/LOGO-PNG.png'
+import logo from '/LOGO-PNG.png'
 import barger from '../../assets/image/barger.png'
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
     return (
@@ -10,9 +12,9 @@ const Header = () => {
             </div>
             <img className='barger-icon' src={barger} alt="barger-icon" />
             <div className='menu'>
-                <a className='menu-link' href="#">Home</a>
-                <a className='menu-link' href="#">Portfolio</a>
-                <a className='menu-link' href="#">Our Team</a>
+                <Link className='menu-link' to="/">Home</Link>
+                <Link className='menu-link' to="/portfolio">Portfolio</Link>
+                <Link className='menu-link' to="/ourTeam">Our Team</Link>
             </div>
             
             <div className='contact-btn-link'>
