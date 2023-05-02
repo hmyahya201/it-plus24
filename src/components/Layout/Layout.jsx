@@ -7,6 +7,7 @@ import WorkProces from './../WorkProces/WorkProces';
 import OurTeam from './../OurTeam/OurTeam';
 import Contact from './../Contact/Contact';
 import Brand from '../Brand/Brand';
+import Footer from '../Footer/Footer';
 
 const Layout = () => {
     return (
@@ -19,6 +20,7 @@ const Layout = () => {
             <WorkProces></WorkProces>
             <OurTeam></OurTeam>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
